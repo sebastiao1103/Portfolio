@@ -31,7 +31,7 @@ const SocialMedia = () => {
                 2xl:px-[14rem]'
       >
         {/* greetings */}
-        <div>
+        {/* <div>
           <SmotionDiv
             variants={horizontalVariants}
             className='text-4xl font-bold'
@@ -51,10 +51,10 @@ const SocialMedia = () => {
             Or let&apos;s just...you know...follow and never say anything to
             each other! SMH...
           </SmotionDiv>
-        </div>
+        </div> */}
 
         {/* social medias */}
-        <SmotionDiv
+        {/* <SmotionDiv
           variants={horizontalVariants}
           className='flex flex-col gap-3'
         >
@@ -69,7 +69,7 @@ const SocialMedia = () => {
               </SmotionDiv>
             );
           })}
-        </SmotionDiv>
+        </SmotionDiv> */}
       </SmotionDiv>
     </div>
   );
