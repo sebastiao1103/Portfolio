@@ -319,7 +319,7 @@ export const PROJECTS_LISTS: Project[] = [
     },
     description:
       'A helpful GPT-3.5-turbo-powered-assistant whose main goal is to guide users to explore the ecosystem of the Hedera network',
-    liveLink: 'https://hedro-ai.vercel.app',
+    liveLink: 'https://hedro-ai-ten.vercel.app/',
     demoLink: '',
     thumbnail: 'hedro-ai/hedro-ai.svg',
     cssWrapper: 'hedro-ai',
