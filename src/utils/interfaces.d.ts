@@ -3,7 +3,6 @@ interface Project {
   title: string;
   stacks: ProjectStack;
   description: string;
-  repoLink: string;
   liveLink: string;
   demoLink: string;
   thumbnail: string;

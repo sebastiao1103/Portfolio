@@ -27,7 +27,6 @@ const ProjectTile = ({ project, flipped }: PapgeProps) => {
     description,
     liveLink,
     demoLink,
-    repoLink,
     thumbnail,
     cssWrapper,
     cssDesc,
@@ -359,7 +358,6 @@ const ProjectTile = ({ project, flipped }: PapgeProps) => {
               {/* github */}
               <motion.a
                 variants={verticalMoreSkills}
-                href={repoLink}
                 target='_blank'
                 className='cursor-pointer flex items-center w-fit'
                 onMouseEnter={() =>
@@ -379,7 +377,7 @@ const ProjectTile = ({ project, flipped }: PapgeProps) => {
                   })
                 }
               >
-                <span className='flex flex-col items-center'>
+                {/* <span className='flex flex-col items-center'>
                   <p className=''>
                     View source code{' '}
                     <span className='hidden xxsm:inline sm:hidden md:inline'>
@@ -395,9 +393,9 @@ const ProjectTile = ({ project, flipped }: PapgeProps) => {
                       className={`${cssUnderline} border-none h-[0.2rem] w-6 sm:w-28 md:w-48 -mt-1 rounded-xl`}
                     />
                   </motion.span>
-                </span>
+                </span> */}
 
-                <motion.span
+                {/* <motion.span
                   animate={{ translateX: hovering.github ? 6 : 0 }}
                   transition={{ easings: true }}
                   className=' whitespace-nowrap'
@@ -407,7 +405,7 @@ const ProjectTile = ({ project, flipped }: PapgeProps) => {
                   ) : (
                     <MdKeyboardArrowRight size={24} />
                   )}
-                </motion.span>
+                </motion.span> */}
               </motion.a>
             </motion.div>
           </div>

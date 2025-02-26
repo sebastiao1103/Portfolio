@@ -272,7 +272,6 @@ export const PROJECTS_LISTS: Project[] = [
     },
     description:
       'A revolutionary web 3.0 music platform that combines NFTs, music-donation system, NFT marketplace, club membership, and social media features, empowering musicians and fans to connect, showcase, and promote their music, revolutionizing the music industry.',
-    repoLink: 'https://github.com/Chain-platform1225',
     liveLink: 'https://syns.vercel.app',
     demoLink: '',
     thumbnail: 'syns-platform/syns-platform-devices.svg',
@@ -320,7 +319,6 @@ export const PROJECTS_LISTS: Project[] = [
     },
     description:
       'A helpful GPT-3.5-turbo-powered-assistant whose main goal is to guide users to explore the ecosystem of the Hedera network',
-    repoLink: 'https://github.com/webmaster1225/hedro-ai',
     liveLink: 'https://hedro-ai.vercel.app',
     demoLink: '',
     thumbnail: 'hedro-ai/hedro-ai.svg',
@@ -383,8 +381,6 @@ export const PROJECTS_LISTS: Project[] = [
     },
     description:
       'An intuitive low-code playground that eliminates the complexities, reduces learning curves, and allows developers to effortlessly interact with the Hedera’s powerful system contracts.',
-    repoLink:
-      'https://github.com/hashgraph/hedera-smart-contracts/tree/main/system-contract-dapp-playground',
     liveLink: 'https://hedera-dapp-playground.vercel.app/',
     demoLink: '',
     thumbnail: 'hedera-dapp-playground/hedera-dapp-playground.svg',
@@ -453,7 +449,6 @@ export const PROJECTS_LISTS: Project[] = [
 
     description:
       'A crypto-wallet that simplifies the process of sending and receiving various digital currencies across the globe, provides a secure and reliable way to manage your digital assets.',
-    repoLink: `${QUIET_NODE_GITHUB_LINK}/hashtology-dapp`,
     liveLink: '',
     demoLink: `${QUIET_NODE_GITHUB_LINK}/hashtology-dapp#desktop`,
     thumbnail: 'hashtology/hashtology.svg',
@@ -495,7 +490,6 @@ export const PROJECTS_LISTS: Project[] = [
     },
     description:
       'A Golang-based application server, boasts a plethora of RESTful endpoints that facilitate the efficient processing and management of metadata and information pertaining to specific NFTs through the utilization of the NFTGo API.',
-    repoLink: `https://github.com/nftir`,
     liveLink: '',
     demoLink: '',
     thumbnail: 'nftir/nftir.svg',
@@ -544,7 +538,6 @@ export const PROJECTS_LISTS: Project[] = [
     },
     description:
       'A full-stack web application aimed at bringing automated calibrated peer review to classrooms at SUNY Oswego.',
-    repoLink: `https://github.com/tenbergen/CSC480-22S`,
     liveLink: 'http://moxie.cs.oswego.edu:13125/',
     demoLink: '',
     thumbnail: 'cproswego/cpr.svg',
@@ -597,7 +590,6 @@ export const PROJECTS_LISTS: Project[] = [
     },
     description:
       'A social platform enables them to connect and create a portfolio that showcases their professional career, including their experience, education, skills, and other pertinent information.',
-    repoLink: `${QUIET_NODE_GITHUB_LINK}/meetup-app`,
     liveLink: 'https://serene-retreat-94411.herokuapp.com/',
     demoLink: '',
     thumbnail: 'meetup-app/meetup-app.svg',
@@ -639,7 +631,6 @@ export const PROJECTS_LISTS: Project[] = [
     },
     description:
       'An Android chat app that supports realtime chatting by integrating the Google Firebase database.',
-    repoLink: `${QUIET_NODE_GITHUB_LINK}/crew-talk`,
     liveLink: '',
     demoLink: `${QUIET_NODE_GITHUB_LINK}/crew-talk#application-showcase`,
     thumbnail: 'crew-talk/crew-talk.svg',
@@ -676,7 +667,6 @@ export const PROJECTS_LISTS: Project[] = [
     },
     description:
       'A dynamic e-commerce platform featuring a user-friendly, yet intricate animated interface for an elevated online shopping experience.',
-    repoLink: `${QUIET_NODE_GITHUB_LINK}/omega-ecommerce`,
     liveLink: '',
     demoLink: `${QUIET_NODE_GITHUB_LINK}/omega-ecommerce#app-demo`,
     thumbnail: 'omega-ecommerce/omega-ecommerce.svg',
