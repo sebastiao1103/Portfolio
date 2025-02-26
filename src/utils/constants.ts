@@ -11,9 +11,9 @@ export const OFFICIAL_OG_IMAGE_URL = `${OFFICIAL_AUTHOR_URL}/brandings/quiet-nod
 export const OFFICIAL_TWITTER_IMAGE_URL = `${OFFICIAL_AUTHOR_URL}/brandings/quiet-node-twitter.png`;
 
 export const QUIET_NODE_PORTFOLIO_V2_GITHUB_LINK =
-  'https://github.com/webmaster1225/portfolio-v2';
+  '';
 
-export const QUIET_NODE_GITHUB_LINK = 'https://github.com/webmaster1225';
+export const QUIET_NODE_GITHUB_LINK = '';
 export const QUIET_NODE_Telegram_LINK =
   'https://t.me/crypto_1225/';
 export const QUIET_NODE_EMAIL_LINK = 'mailto:takao890101@gmail.com';

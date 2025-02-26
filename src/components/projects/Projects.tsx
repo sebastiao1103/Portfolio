@@ -100,8 +100,6 @@ const Projects = () => {
               >
                 {showMore ? (
                   <div className='flex gap-1 items-center'>
-                    More On Github
-                    <MdOpenInNew />
                   </div>
                 ) : (
                   'Show More'
