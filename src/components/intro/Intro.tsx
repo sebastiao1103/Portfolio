@@ -79,7 +79,7 @@ const Intro = () => {
             whileInView="shown"
             viewport={{ once: true }}
             variants={descriptionVariants}
-            className="text-lg sm:text-xl font-bold drop-shadow-xl"
+            className="text-2xl sm:text-3xl font-bold drop-shadow-xl"
           >
             <SmotionDiv variants={descriptionVariants}>
               Full Stack Software Developer.
@@ -95,21 +95,8 @@ const Intro = () => {
 
         {/* Social & Avatar */}
         <div className="flex flex-col">
-          {/* Social Medias */}
+          {/* Social Medias
           <div className="text-5xl flex flex-wrap justify-center gap-9 xxsm:gap-12 sm:gap-16 lg:gap-20 py-3 text-teal-600">
-            {/* <SmotionLink
-              initial={{ opacity: 0, x: -21 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              whileHover={{ y: -0.5 }}
-              transition={{ duration: 0.6, delay: 1.2 }}
-              href={QUIET_NODE_LINKEDIN_LINK as string}
-              target="_blank"
-              className="cursor-pointer hover:text-[#0A66C2]"
-              title="LinkedIn"
-            >
-              <AiFillLinkedin />
-            </SmotionLink> */}
             <SmotionLink
               initial={{ opacity: 0, y: 21 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -123,20 +110,6 @@ const Intro = () => {
             >
               <AiFillGithub />
             </SmotionLink>
-
-            {/* <SmotionLink
-              initial={{ opacity: 0, y: 21 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              whileHover={{ y: -0.5 }}
-              transition={{ duration: 0.6, delay: 1.1 }}
-              href={QUIET_NODE_TWITTER_LINK}
-              target="_blank"
-              className="cursor-pointer hover:text-[#1DA1F2]"
-              title="Twitter"
-            >
-              <AiFillTwitterCircle />
-            </SmotionLink> */}
             <SmotionLink
               initial={{ opacity: 0, x: 21 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -150,10 +123,10 @@ const Intro = () => {
             >
               <ImMail size={40} />
             </SmotionLink>
-          </div>
+          </div> */}
 
           {/* Avatar */}
-{/*           <div className="flex justify-center">
+          <div className="flex justify-center">
             <SmotionDiv
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -171,13 +144,13 @@ const Intro = () => {
             >
               <Image
                 className="absolute inset-0 w-full h-full object-center object-cover rounded-full select-none"
-                src={"/assets/avatars/profile_pic.png"}
+                src={"/assets/avatars/profile_pic.jpg"}
                 alt="webmaster"
                 width={300}
                 height={300}
               />
             </SmotionDiv>
-          </div> */}
+          </div>
         </div>
       </div>
     </section>
